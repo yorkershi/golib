@@ -100,7 +100,7 @@ func (this *Cache) GetString(key string) string {
 
 //设置一个int64类型到cache中
 func (this *Cache) SetInt(key string, value int64, expiration time.Duration) {
-	fmt.Println("get v1.1.5")
+	fmt.Println("get v1.1.6")
 	this.Set(key, value, expiration)
 }
 func (this *Cache) GetInt(key string) int64 {
